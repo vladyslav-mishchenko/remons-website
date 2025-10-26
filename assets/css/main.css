@@ -6950,3 +6950,7 @@ input.main-search-input::placeholder {
 .swiper-slide .vin{
   display: block;
 }
+
+.car-rentals-items .vin{
+  display: block;
+}
