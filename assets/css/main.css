@@ -3681,6 +3681,7 @@ span {
 }
 
 .nice-select {
+  width: 50px !important;
   background-color: transparent;
   width: unset;
   outline: none;
@@ -3699,7 +3700,7 @@ span {
 }
 
 .nice-select:after {
-  right: -35px;
+  right: 10px;
   border-bottom: 2px solid transparent;
   border-right: 2px solid transparent;
   width: 10px;
@@ -3707,13 +3708,13 @@ span {
   top: 15px;
   border-bottom: 2px solid transparent;
   border-color: var(--theme);
-  border-right: 2px solid transparent;
+  /* border-right: 2px solid transparent; */
 }
 
 .nice-select.open .list {
   background: var(--bg);
   margin-top: 16px;
-  width: 100%;
+  width: 50px;
   text-transform: capitalize;
   color: var(--text);
 }
@@ -5242,7 +5243,7 @@ input.main-search-input::placeholder {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 55px 0;
 }
 @media (max-width: 1199px) {
   .section-padding {
@@ -6941,3 +6942,11 @@ input.main-search-input::placeholder {
   background-color: var(--theme);
   color: var(--white);
 }/*# sourceMappingURL=main.css.map */
+
+.car-rentals-slider{
+  padding: 10px 0;
+}
+
+.swiper-slide .vin{
+  display: block;
+}
