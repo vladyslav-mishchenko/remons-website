@@ -1,0 +1,42 @@
+.m-languages .nice-select.open .list {
+    background: #000000;
+    position: absolute;
+    z-index: 10;
+}
+
+.m-languages .nice-select.open .option:hover {
+    background: #ff3726;
+}
+
+.m-languages {
+    border: 1px solid #77797e;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 60px;
+}
+
+.m-languages .nice-select {
+    margin: 0 auto;
+}
+
+.mean-container .mean-bar {
+    z-index: 1;
+}
+
+.m-languages .nice-select.open .list {
+    width: 60px;
+    margin-top: 10px;
+}
+
+.m-languages .nice-select .list {
+    right: -6px;
+}
+
+.offcanvas__logo a img {
+    width: 70px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
