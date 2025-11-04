@@ -46,6 +46,10 @@
     padding-left: 0px;
 }
 
+.brand-wrapper .array-button {
+    z-index: 0;
+}
+
 @media (max-width: 1199px) {
     .header-right .languages {
         display: none;
